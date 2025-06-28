@@ -39,15 +39,20 @@ Ideal for:
 3 Install dependencies:
   pip install -r requirements.txt
 
+---
+## ⚙️ Usage
 
-⚙️ Usage
 CLI Example:
+
 python sales_report.py --input data/sales_data.xlsx --output reports/summary_report.html
+---
 
 Jupyter Notebook:
 Open Sales_Report.ipynb and run through the data prep, analysis, and visualization cells interactively.
 
-🗂️ Project Structure
+---
+
+## 🗂️ Project Structure
 SALES_REPORT/
 │
 ├── data/              # Sample or template data files
@@ -58,8 +63,9 @@ SALES_REPORT/
 ├── requirements.txt   # Python dependencies
 └── README.md          # Project documentation (you’re here!)
 
+---
 
-⚙️ Configuration
+## ⚙️ Configuration
 Supported input formats: .csv, .xlsx
 
 Column requirements:
@@ -74,21 +80,21 @@ Optional flags:
 
 --format pdf/html/xlsx: specify report output type
 
+---
 
-
-🧍‍♂️ Author
+## 🧍‍♂️ Author
 Gopal Bhardwaj
 
 📫 bhardwaj520gopal@gmail.com
-
-🔗 LinkedIn
+### 🔗 LinkedIn
+---
 
 📄 License
 This project is licensed under the MIT License.
+---
 
 
-
-👏 Acknowledgements
+## 👏 Acknowledgements
 Libraries: Pandas, NumPy, Matplotlib, Seaborn, Plotly
 
 Inspiration from open‑source sales report tools and BI projects
